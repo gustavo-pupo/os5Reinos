@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AnimaliaComponent } from './animalia/animalia.component';
+import { HomeComponent } from './home/home.component';
+import { PlantaeComponent } from './plantae/plantae.component';
+import { MoneraComponent } from './monera/monera.component';
+import { FungoComponent } from './fungo/fungo.component';
+import { ProtistaComponent } from './protista/protista.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AnimaliaComponent,
+    HomeComponent,
+    PlantaeComponent,
+    MoneraComponent,
+    FungoComponent,
+    ProtistaComponent
   ],
   imports: [
     BrowserModule,

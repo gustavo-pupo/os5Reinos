@@ -1,18 +1,21 @@
 <header>
-  <h1 class="titulo">Os 5 reinos Biológicos</h1>
+  <h1 [routerLink]="['/']" routerLinkActive="router-link-active"  class="titulo">Os 5 reinos Biológicos</h1>
 </header>
 <nav>
   <ul>
-    <li id="animalia">Animalia</li>
-    <li id="plantae">Plantae</li>
-    <li id="monera">Monera</li>
-    <li id="funghi">Funghi</li>
-    <li id="protista">Protista</li>
+    <li [routerLink]="['/animalia']" id="animalia">Animalia</li>
+    <li [routerLink]="['/plantae']" id="plantae">Plantae</li>
+    <li [routerLink]="['/monera']" id="monera">Monera</li>
+    <li [routerLink]="['/fungo']" id="funghi">Funghi</li>
+    <li [routerLink]="['/protista']" id="protista">Protista</li>
   </ul>
 </nav>
-<footer>
+<section>
+  <router-outlet></router-outlet>
+</section>
+<footer class="fixed-bottom">
   <p>&copy;Gustavo_Pupo</p>
 </footer>
 
 
-<router-outlet></router-outlet>
+
