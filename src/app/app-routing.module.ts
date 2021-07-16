@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AnimaliaComponent } from './animalia/animalia.component';
 import { FungoComponent } from './fungo/fungo.component';
+import { GlossarioComponent } from './glossario/glossario.component';
 import { HomeComponent } from './home/home.component';
 import { MoneraComponent } from './monera/monera.component';
 import { PlantaeComponent } from './plantae/plantae.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: "fungo", component: FungoComponent},
   {path: "monera", component: MoneraComponent},
   {path: "protista", component: ProtistaComponent},
+  {path: "glossario", component: GlossarioComponent},
 ];
 
 @NgModule({

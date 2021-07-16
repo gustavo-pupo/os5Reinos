@@ -9,6 +9,7 @@ import { PlantaeComponent } from './plantae/plantae.component';
 import { MoneraComponent } from './monera/monera.component';
 import { FungoComponent } from './fungo/fungo.component';
 import { ProtistaComponent } from './protista/protista.component';
+import { GlossarioComponent } from './glossario/glossario.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProtistaComponent } from './protista/protista.component';
     PlantaeComponent,
     MoneraComponent,
     FungoComponent,
-    ProtistaComponent
+    ProtistaComponent,
+    GlossarioComponent
   ],
   imports: [
     BrowserModule,
