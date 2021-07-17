@@ -1,31 +1,106 @@
+div div h2{
+    color: white;
+    padding: 4% 0 0 35%;
+}
+div div h3{
+    color: white;
+    padding: 3% 0 0 5%;
+}
+
+/* classes */
 .div{
     width:40%;
-    margin: 1% 0 1% 30%;
+    margin: 2% 0 1% 30%;
     text-align: center;
 }
 /* ids */
 #poriferos,#cnidarios,#platelmintos,#nematelmintos,#anelideos,#moluscos,#artropodes,#equinodermos{
-    border:1px solid black;
+    /* border:1px solid black; */
     width:20%;
-    height: 150px;
+    height: 165px;
+    margin: 0 2%;
+    border-radius: 15px 15px 2px 2px;
+    overflow: hidden;
+    box-shadow: 0 0 1em black;
+    transition: 0.5s;
+}
+
+#poriferos:hover,
+#cnidarios:hover,
+#platelmintos:hover,
+#nematelmintos:hover,
+#anelideos:hover,
+#moluscos:hover,
+#artropodes:hover,
+#equinodermos:hover{
+    width:25%;
+    height: 200px;
+    box-shadow: 0 0 0.8rem lime;
+    cursor: pointer;
 }
 #cordados{
-    border: 1px solid black;
-    width: 40%;
+    /* border: 1px solid black; */
+    width: 30%;
     height: 300px;
+    border-radius: 20px 20px 4px 4px;
+    overflow:hidden;
+    box-shadow: 0 0 1em black;
+    transition: 0.5s;
 }
-/* #filosAnimalia{
-} */
+#cordados:hover{
+    width:35%;
+    height: 350px;
+    box-shadow: 0 0 0.8rem lime;
+    cursor: pointer;
+}
 #animaliaCima{
     display: flex;
     flex-direction: row;
+    margin: 2% 0 2% 14%;
 }
 #animaliaBaixo{
     display: flex;
     flex-direction: row;
+    margin: 2% 0 0 14%;
 }
 #animaliaMeio{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 0 0 0 10%;
+}
+#filosAnimalia{
+    margin: 0 0 2% 9%;
+}
+#tituloPori,#tituloCni,#tituloPlat,#tituloNema,#tituloAnel,#tituloMolu,#tituloArtro,#tituloEquino{
+    background-color: #65181B;
+    width: 100%;
+    height: 23%;
+}
+#tituloCord{
+    background-color: #000;
+    width: 100%;
+    height: 20%;
+}
+/* #poriferos img{
+    width: 100%;
+}
+#cnidarios img{
+    width: 100%;
+} */
+#poriferos img,
+#cnidarios img,
+#platelmintos img,
+#nematelmintos img,
+#anelideos img,
+#moluscos img,
+#artropodes img,
+#equinodermos img{
+    width: 100%;
+}
+#cordados img{
+    width: 137%
+}
+#anelideos img{
+    width: 125%;
 }
