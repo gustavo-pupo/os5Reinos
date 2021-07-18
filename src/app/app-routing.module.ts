@@ -1,12 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AnelideosComponent } from './animalia/anelideos/anelideos.component';
 import { AnimaliaComponent } from './animalia/animalia.component';
+import { ArtropodesComponent } from './animalia/artropodes/artropodes.component';
+import { CnidariosComponent } from './animalia/cnidarios/cnidarios.component';
+import { CordadosComponent } from './animalia/cordados/cordados.component';
+import { EquinodermosComponent } from './animalia/equinodermos/equinodermos.component';
+import { MoluscosComponent } from './animalia/moluscos/moluscos.component';
+import { NematelmintosComponent } from './animalia/nematelmintos/nematelmintos.component';
+import { PlatelmintosComponent } from './animalia/platelmintos/platelmintos.component';
+import { PoriferosComponent } from './animalia/poriferos/poriferos.component';
 import { FungoComponent } from './fungo/fungo.component';
 import { GlossarioComponent } from './glossario/glossario.component';
 import { HomeComponent } from './home/home.component';
 import { MoneraComponent } from './monera/monera.component';
 import { PlantaeComponent } from './plantae/plantae.component';
 import { ProtistaComponent } from './protista/protista.component';
+
 
 
 const routes: Routes = [
@@ -17,6 +27,16 @@ const routes: Routes = [
   {path: "monera", component: MoneraComponent},
   {path: "protista", component: ProtistaComponent},
   {path: "glossario", component: GlossarioComponent},
+  //animalia
+  {path: "poriferos", component: PoriferosComponent},
+  {path: "cnidarios", component: CnidariosComponent},
+  {path: "platelmintos", component: PlatelmintosComponent},
+  {path: "nematelmintos", component: NematelmintosComponent},
+  {path: "cordados", component: CordadosComponent},
+  {path: "anelideos", component: AnelideosComponent},
+  {path: "artropodes", component: ArtropodesComponent},
+  {path: "moluscos", component: MoluscosComponent},
+  {path: "equinodermos", component: EquinodermosComponent},
 ];
 
 @NgModule({
