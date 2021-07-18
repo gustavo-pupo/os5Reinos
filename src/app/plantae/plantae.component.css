@@ -1,6 +1,6 @@
 /* tags */
 div div h3{
-    padding: 2.5% 0 0 2%;
+    padding: 3.5% 0 0 2%;
 }
 div h2{
     margin: 3% 0 3% 0;
@@ -19,9 +19,9 @@ div h2{
 }
 
 #briofitas,#pteridofitas,#gimnospermas,#angiospermas{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 20%;
-    height:170px;
+    height:200px;
     margin: 0 3%;
     overflow:hidden;
     border-radius: 15px 15px 4px 4px;
@@ -37,7 +37,7 @@ div h2{
 
 #briofitas:hover,#pteridofitas:hover,#gimnospermas:hover,#angiospermas:hover{
     width: 25%;
-    height: 220px;
+    height: 240px;
     cursor: pointer;
     box-shadow: 0 0 2rem lime;
 }
