@@ -1,2 +1,42 @@
-<p>plantae works!</p>
-<img src="../../assets/img/floresta.jpg" alt="">
+<div class="div">
+  <h2>Principais características do reino Metaphyta:</h2>
+  <p>O reino plantae é composto por organismos
+    <a target="_blank" [routerLink]="['/glossario']">multicelulares</a>,
+    <a target="_blank" [routerLink]="['/glossario']">fotossintéticos</a> e
+    <a target="_blank" [routerLink]="['/glossario']">eucariontes</a>,
+    em geral, as plantas.
+  </p>
+  <h2>O reino Metaphyta se divide em 4 <a [routerLink]="['/glossario']">filos</a>:</h2>
+
+</div>
+
+<div id="plantaeGeral">
+
+  <div [routerLink]="['/briofitas']" id="briofitas">
+    <div id="tituloBrio">
+      <h3>Briófitas</h3>
+    </div>
+    <img src="../../assets/img/plantae/briofitas.jpg" alt="">
+  </div>
+
+  <div [routerLink]="['/pteridofitas']" id="pteridofitas">
+    <div id="tituloPter">
+      <h3>Pteridófitas</h3>
+    </div>
+    <img src="../../assets/img/plantae/samambaia.jpg" alt="">
+  </div>
+
+  <div [routerLink]="['/gimnospermas']" id="gimnospermas">
+    <div id="tituloGimn">
+      <h3>Gimnospermas</h3>
+    </div>
+    <img src="../../assets/img/plantae/gimnospermas.jpg" alt="">
+  </div>
+
+  <div [routerLink]="['/angiospermas']" id="angiospermas">
+    <div id="tituloAngi">
+      <h3>Angiospermas</h3>
+    </div>
+    <img src="../../assets/img/plantae/sakura.jpg" alt="">
+  </div>
+</div>

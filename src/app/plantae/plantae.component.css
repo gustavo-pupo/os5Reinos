@@ -1,0 +1,51 @@
+/* tags */
+div div h3{
+    padding: 2.5% 0 0 2%;
+}
+div h2{
+    margin: 3% 0 3% 0;
+}
+/* classes */
+
+/* ids */
+
+#plantaeGeral{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0 3% 0;
+}
+
+#briofitas,#pteridofitas,#gimnospermas,#angiospermas{
+    border: 1px solid black;
+    width: 20%;
+    height:170px;
+    margin: 0 3%;
+    overflow:hidden;
+    border-radius: 15px 15px 4px 4px;
+    box-shadow: 0 0 2rem black;
+    transition: 0.5s;
+}
+
+#tituloBrio,#tituloPter,#tituloGimn,#tituloAngi{
+    background-color: #65181B;
+    color: white;
+    height: 25%;
+}
+
+#briofitas:hover,#pteridofitas:hover,#gimnospermas:hover,#angiospermas:hover{
+    width: 25%;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 0 0 2rem lime;
+}
+
+#briofitas img,
+#pteridofitas img,
+#gimnospermas img,
+#angiospermas img{
+    width: 100%;
+}
+

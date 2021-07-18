@@ -19,6 +19,10 @@ import { AnelideosComponent } from './animalia/anelideos/anelideos.component';
 import { MoluscosComponent } from './animalia/moluscos/moluscos.component';
 import { ArtropodesComponent } from './animalia/artropodes/artropodes.component';
 import { EquinodermosComponent } from './animalia/equinodermos/equinodermos.component';
+import { BriofitasComponent } from './plantae/briofitas/briofitas.component';
+import { PteridofitasComponent } from './plantae/pteridofitas/pteridofitas.component';
+import { GimnospermasComponent } from './plantae/gimnospermas/gimnospermas.component';
+import { AngiospermasComponent } from './plantae/angiospermas/angiospermas.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +42,11 @@ import { EquinodermosComponent } from './animalia/equinodermos/equinodermos.comp
     AnelideosComponent,
     MoluscosComponent,
     ArtropodesComponent,
-    EquinodermosComponent
+    EquinodermosComponent,
+    BriofitasComponent,
+    PteridofitasComponent,
+    GimnospermasComponent,
+    AngiospermasComponent
   ],
   imports: [
     BrowserModule,

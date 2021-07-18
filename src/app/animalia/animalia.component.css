@@ -8,11 +8,7 @@ div div h3{
 }
 
 /* classes */
-.div{
-    width:40%;
-    margin: 2% 0 1% 30%;
-    text-align: center;
-}
+
 /* ids */
 #poriferos,#cnidarios,#platelmintos,#nematelmintos,#anelideos,#moluscos,#artropodes,#equinodermos{
     /* border:1px solid black; */

@@ -14,7 +14,11 @@ import { FungoComponent } from './fungo/fungo.component';
 import { GlossarioComponent } from './glossario/glossario.component';
 import { HomeComponent } from './home/home.component';
 import { MoneraComponent } from './monera/monera.component';
+import { AngiospermasComponent } from './plantae/angiospermas/angiospermas.component';
+import { BriofitasComponent } from './plantae/briofitas/briofitas.component';
+import { GimnospermasComponent } from './plantae/gimnospermas/gimnospermas.component';
 import { PlantaeComponent } from './plantae/plantae.component';
+import { PteridofitasComponent } from './plantae/pteridofitas/pteridofitas.component';
 import { ProtistaComponent } from './protista/protista.component';
 
 
@@ -37,6 +41,11 @@ const routes: Routes = [
   {path: "artropodes", component: ArtropodesComponent},
   {path: "moluscos", component: MoluscosComponent},
   {path: "equinodermos", component: EquinodermosComponent},
+  //plantae
+  {path: "briofitas", component: BriofitasComponent},
+  {path: "pteridofitas", component: PteridofitasComponent},
+  {path: "gimnospermas", component: GimnospermasComponent},
+  {path: "angiospermas", component: AngiospermasComponent},
 ];
 
 @NgModule({
