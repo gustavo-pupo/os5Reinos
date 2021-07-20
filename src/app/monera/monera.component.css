@@ -36,3 +36,10 @@ div#moneraGeral{
     height: 20%;
     color: white;
 }
+#archaea img{
+    width: 100%;
+    /* height: 100%; */
+}
+#eubacterias img{
+    width: 125%;
+}

@@ -23,6 +23,8 @@ import { BriofitasComponent } from './plantae/briofitas/briofitas.component';
 import { PteridofitasComponent } from './plantae/pteridofitas/pteridofitas.component';
 import { GimnospermasComponent } from './plantae/gimnospermas/gimnospermas.component';
 import { AngiospermasComponent } from './plantae/angiospermas/angiospermas.component';
+import { ArqueobacteriasComponent } from './monera/arqueobacterias/arqueobacterias.component';
+import { EubacteriasComponent } from './monera/eubacterias/eubacterias.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { AngiospermasComponent } from './plantae/angiospermas/angiospermas.compo
     BriofitasComponent,
     PteridofitasComponent,
     GimnospermasComponent,
-    AngiospermasComponent
+    AngiospermasComponent,
+    ArqueobacteriasComponent,
+    EubacteriasComponent
   ],
   imports: [
     BrowserModule,

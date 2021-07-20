@@ -13,6 +13,8 @@ import { PoriferosComponent } from './animalia/poriferos/poriferos.component';
 import { FungoComponent } from './fungo/fungo.component';
 import { GlossarioComponent } from './glossario/glossario.component';
 import { HomeComponent } from './home/home.component';
+import { ArqueobacteriasComponent } from './monera/arqueobacterias/arqueobacterias.component';
+import { EubacteriasComponent } from './monera/eubacterias/eubacterias.component';
 import { MoneraComponent } from './monera/monera.component';
 import { AngiospermasComponent } from './plantae/angiospermas/angiospermas.component';
 import { BriofitasComponent } from './plantae/briofitas/briofitas.component';
@@ -46,6 +48,8 @@ const routes: Routes = [
   {path: "pteridofitas", component: PteridofitasComponent},
   {path: "gimnospermas", component: GimnospermasComponent},
   {path: "angiospermas", component: AngiospermasComponent},
+  {path: "arqueobacterias", component: ArqueobacteriasComponent},
+  {path: "eubacterias", component: EubacteriasComponent},
 ];
 
 @NgModule({

@@ -24,7 +24,7 @@ div h2{
     height:200px;
     margin: 0 3%;
     overflow:hidden;
-    border-radius: 15px 15px 4px 4px;
+    border-radius: 6px 6px 4px 4px;
     box-shadow: 0 0 2rem black;
     transition: 0.5s;
 }

@@ -1,21 +1,24 @@
 <div class="div">
-    <h2>O reino Monera é composto por seres 
-    <a>unicelulares</a>e
+    <h2>Reino Monera:</h2>
+    <p>O reino Monera é composto por seres 
+    <a>unicelulares</a> e
     <a>procariontes</a>,
     e se subdivide em dois grupos:
-    </h2>
+    </p>
 </div>
 
 <div id="moneraGeral">
-    <div id="archaea">
+    <div [routerLink]="['/arqueobacterias']" id="archaea">
         <div id="tituloArch">
             <h3>Archaea</h3>
         </div>
+<img src="../../assets/img/monera/arqueo.jpg" alt="">
     </div>
 
-    <div id="eubacterias">
+    <div [routerLink]="['/eubacterias']" id="eubacterias">
         <div id="tituloEuba">
             <h3>Eubactérias</h3>
         </div>
+        <img src="../../assets/img/monera/bacteria.jpg" alt="">
     </div>
 </div>
