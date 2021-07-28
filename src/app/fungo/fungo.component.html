@@ -3,7 +3,7 @@
   <p>O reino Fungi é composto por seres
     <a>heterotróficos</a>, que podem ser
     <a>Unicelulares</a> ou
-    <a>Multicelulares</a> e que ja foram considerados plantas,
+    <a>Multicelulares</a> e que já foram considerados plantas,
     porém como não possuem
     <a>clorofila</a> nem fazem
     <a>fotossíntese</a>, foram separados das plantas.
@@ -12,35 +12,40 @@
 
 <div id="fungiGeral">
   <div id="fungiCima">
-    <div id="quitridios">
+    <div [routerLink]="['/quitridios']" id="quitridios">
       <div id="tituloQuit">
         <h3>Quitrídios</h3>
       </div>
+      <img src="../../assets/img/fungo/quitridios.jpg" alt="">
     </div>
 
-    <div id="zigomicetos">
+    <div [routerLink]="['/zigomicetos']" id="zigomicetos">
       <div id="tituloZigo">
         <h3>Zigomicetos</h3>
       </div>
+      <img src="../../assets/img/fungo/zigomiceto.jpg" alt="">
     </div>
 
-    <div id="glomeromicetos">
+    <div [routerLink]="['/glomeromicetos']" id="glomeromicetos">
       <div id="tituloGlom">
         <h3>Glomeromicetos</h3>
       </div>
+      <img src="../../assets/img/fungo/glomeromicetos.jpg" alt="">
     </div>
   </div>
   <div id="fungiBaixo">
-    <div id="ascomicetos">
+    <div [routerLink]="['/ascomicetos']" id="ascomicetos">
       <div id="tituloAsco">
         <h3>Ascomicetos</h3>
       </div>
+      <img src="../../assets/img/fungo/ascomicetos.jpg" alt="">
     </div>
 
-    <div id="basidiomicetos">
+    <div [routerLink]="['/basidiomicetos']" id="basidiomicetos">
       <div id="tituloBasi">
           <h3>Basidiomicetos</h3>
       </div>
+      <img src="../../assets/img/fungo/basidiomicetos.jpg" alt="">
     </div>
   </div>
 </div>

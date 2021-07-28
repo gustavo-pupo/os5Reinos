@@ -1,9 +1,9 @@
-div div h3{
-    /* padding: ; */
+/*div div h3{
+     padding: ; 
 }
-
+*/
 div#fungiGeral{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 80%;
     margin: 0 0 0 10%;
     display: flex;
@@ -43,4 +43,7 @@ div#fungiBaixo{
     height: 220px;
     box-shadow: 0 0 1rem lime;
     cursor:pointer;
+}
+#quitridios img, #zigomicetos img, #glomeromicetos img, #ascomicetos img, #basidiomicetos img{
+    width: 100%;
 }

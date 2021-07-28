@@ -10,7 +10,12 @@ import { MoluscosComponent } from './animalia/moluscos/moluscos.component';
 import { NematelmintosComponent } from './animalia/nematelmintos/nematelmintos.component';
 import { PlatelmintosComponent } from './animalia/platelmintos/platelmintos.component';
 import { PoriferosComponent } from './animalia/poriferos/poriferos.component';
+import { AscomicetosComponent } from './fungo/ascomicetos/ascomicetos.component';
+import { BasidiomicetosComponent } from './fungo/basidiomicetos/basidiomicetos.component';
 import { FungoComponent } from './fungo/fungo.component';
+import { GlomeromicetosComponent } from './fungo/glomeromicetos/glomeromicetos.component';
+import { QuitridiosComponent } from './fungo/quitridios/quitridios.component';
+import { ZigomicetosComponent } from './fungo/zigomicetos/zigomicetos.component';
 import { GlossarioComponent } from './glossario/glossario.component';
 import { HomeComponent } from './home/home.component';
 import { ArqueobacteriasComponent } from './monera/arqueobacterias/arqueobacterias.component';
@@ -48,8 +53,15 @@ const routes: Routes = [
   {path: "pteridofitas", component: PteridofitasComponent},
   {path: "gimnospermas", component: GimnospermasComponent},
   {path: "angiospermas", component: AngiospermasComponent},
+  //bacterias
   {path: "arqueobacterias", component: ArqueobacteriasComponent},
   {path: "eubacterias", component: EubacteriasComponent},
+  //fungi
+  {path: "quitridios", component: QuitridiosComponent},
+  {path: "zigomicetos", component: ZigomicetosComponent},
+  {path: "glomeromicetos", component: GlomeromicetosComponent},
+  {path: "ascomicetos", component: AscomicetosComponent},
+  {path: "basidiomicetos", component: BasidiomicetosComponent}
 ];
 
 @NgModule({

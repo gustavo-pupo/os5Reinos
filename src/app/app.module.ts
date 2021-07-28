@@ -25,6 +25,11 @@ import { GimnospermasComponent } from './plantae/gimnospermas/gimnospermas.compo
 import { AngiospermasComponent } from './plantae/angiospermas/angiospermas.component';
 import { ArqueobacteriasComponent } from './monera/arqueobacterias/arqueobacterias.component';
 import { EubacteriasComponent } from './monera/eubacterias/eubacterias.component';
+import { QuitridiosComponent } from './fungo/quitridios/quitridios.component';
+import { ZigomicetosComponent } from './fungo/zigomicetos/zigomicetos.component';
+import { GlomeromicetosComponent } from './fungo/glomeromicetos/glomeromicetos.component';
+import { AscomicetosComponent } from './fungo/ascomicetos/ascomicetos.component';
+import { BasidiomicetosComponent } from './fungo/basidiomicetos/basidiomicetos.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +55,12 @@ import { EubacteriasComponent } from './monera/eubacterias/eubacterias.component
     GimnospermasComponent,
     AngiospermasComponent,
     ArqueobacteriasComponent,
-    EubacteriasComponent
+    EubacteriasComponent,
+    QuitridiosComponent,
+    ZigomicetosComponent,
+    GlomeromicetosComponent,
+    AscomicetosComponent,
+    BasidiomicetosComponent
   ],
   imports: [
     BrowserModule,
