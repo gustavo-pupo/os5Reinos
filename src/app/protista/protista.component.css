@@ -1,0 +1,55 @@
+div h2{
+    text-align: center;
+    margin: 1% auto;
+}
+div div h3{
+    padding: 5% 0 0 4%;
+    font-size: 1.3rem;
+}
+
+
+#autotrofos,#heterotrofos{
+    border: 1px solid black;
+}
+#autoCima,#autoBaixo{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 16%;
+}
+#crisofitas,
+#pirrofitas,
+#euglenofitas,
+#clorofitas,
+#rodofitas,
+#phaeophytas{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 300px;
+    margin: 1%;
+    border-radius: 15px 15px 7px 7px;
+    box-shadow: 0 0 1rem black;
+    overflow: hidden;
+    transition: 0.4s;
+}
+#crisofitas:hover,
+#pirrofitas:hover,
+#euglenofitas:hover,
+#clorofitas:hover,
+#rodofitas:hover,
+#phaeophytas:hover{
+    width: 30%;
+    height: 330px;
+    box-shadow: 0 0 1rem lime;
+    cursor: pointer;
+}
+#tituloCris,
+#tituloPirr,
+#tituloEugl,
+#tituloClor,
+#tituloRodo,
+#tituloPhae{
+    width: 100%;
+    height: 20%;
+    background-color: #65181B;
+    color: white;
+}
