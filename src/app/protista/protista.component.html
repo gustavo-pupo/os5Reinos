@@ -10,74 +10,92 @@
   <div id="autotrofos">
     <div id="autoCima">
 
-    <div id="crisofitas">
-      <div id="tituloCris">
-        <h3>Crisófitas</h3>
+      <div [routerLink]="['/crisofitas']" routerLinkActive="router-link-active"  id="crisofitas">
+        <div id="tituloCris">
+          <h3>Crisófitas</h3>
+        </div>
+        <img src="../../assets/img/protista/crisofitas.jpg" alt="">
+      </div>
+
+      <div [routerLink]="['/pirrofitas']" routerLinkActive="router-link-active"  id="pirrofitas">
+        <div id="tituloPirr">
+          <h3>Pirrófitas</h3>
+        </div>
+        <img src="../../assets/img/protista/pirrofitas.jpg" alt="">
+      </div>
+
+      <div [routerLink]="['/euglenofitas']" routerLinkActive="router-link-active"  id="euglenofitas">
+        <div id="tituloEugl">
+          <h3>Euglenófitas</h3>
+        </div>
+        <img src="../../assets/img/protista/euglenofitas.jpg" alt="">
       </div>
     </div>
 
-    <div id="pirrofitas">
-      <div id="tituloPirr">
-        <h3>Pirrófitas</h3>
-      </div>
-    </div>
-
-    <div id="euglenofitas">
-      <div id="tituloEugl">
-        <h3>Euglenófitas</h3>
-      </div>
-    </div>
-    </div>
-    <div id="autoBaixo">
+    <div [routerLink]="['/clorofitas']" routerLinkActive="router-link-active"  id="autoBaixo">
       <div id="clorofitas">
         <div id="tituloClor">
-            <h3>Clorófitas</h3>
+          <h3>Clorófitas</h3>
         </div>
+        <img src="../../assets/img/protista/clorofitas.png" alt="">
       </div>
 
-      <div id="rodofitas">
+      <div [routerLink]="['/rodofitas']" routerLinkActive="router-link-active"  id="rodofitas">
         <div id="tituloRodo">
-            <h3>Rodófitas</h3>
+          <h3>Rodófitas</h3>
         </div>
+        <img src="../../assets/img/protista/rodofitas.jpg" alt="">
       </div>
 
-      <div id="phaeophytas">
+      <div [routerLink]="['/phaeophytas']" routerLinkActive="router-link-active"  id="phaeophytas">
         <div id="tituloPhae">
-            <h3>Phaeophytas</h3>
+          <h3>Phaeophytas</h3>
         </div>
+        <img src="../../assets/img/protista/pardas.jpg" alt="">
       </div>
     </div>
   </div>
 
+<hr />
+
   <div id="heterotrofos">
     <h2>Heterótrofos:</h2>
-    <div id="rizopodes">
-      <div id="tituloRizo">
+    <div id="heteroCima">
 
+      <div [routerLink]="['/rizopodes']" routerLinkActive="router-link-active"  id="rizopodes">
+        <div id="tituloRizo">
+          <h3>Rizópodes</h3>
+        </div>  
+        <img src="../../assets/img/protista/risopodes.jpg" alt="">
+      </div>
+
+      <div [routerLink]="['/mastigoforos']" routerLinkActive="router-link-active"  id="mastigoforos">
+        <div id="tituloMast">
+          <h3>Mastigóforos</h3>
+        </div>
+        <img src="../../assets/img/protista/mastigoforos.jpg" alt="">
+      </div>
+
+      <div [routerLink]="['/cilioforos']" routerLinkActive="router-link-active"  id="cilioforos">
+        <div id="tituloCili">
+          <h3>Cilióforos</h3>
+        </div>
+        <img src="../../assets/img/protista/ciliado.jpg" alt="">
       </div>
     </div>
-
-    <div id="mastigoforos">
-      <div id="tituloMast">
-
+    <div id="heteroBaixo">
+      <div [routerLink]="['/esporozoarios']" routerLinkActive="router-link-active"  id="esporozoarios">
+        <div id="tituloEspo">
+          <h3>Esporozoários</h3>
+        </div>
+        <img src="../../assets/img/protista/esporozoarios.png" alt="">
       </div>
-    </div>
 
-    <div id="cilioforos">
-      <div id="tituloCili">
-
-      </div>
-    </div>
-
-    <div id="esporozoarios">
-      <div id="tituloEspo">
-
-      </div>
-    </div>
-
-    <div id="mixomicetos">
-      <div id="tituloMixo">
-
+      <div [routerLink]="['/mixomicetos']" routerLinkActive="router-link-active"  id="mixomicetos">
+        <div id="tituloMixo">
+          <h3>Mixomicetos</h3>
+        </div>
+        <img src="../../assets/img/protista/mixomicetos.jpg" alt="">
       </div>
     </div>
   </div>

@@ -30,6 +30,17 @@ import { ZigomicetosComponent } from './fungo/zigomicetos/zigomicetos.component'
 import { GlomeromicetosComponent } from './fungo/glomeromicetos/glomeromicetos.component';
 import { AscomicetosComponent } from './fungo/ascomicetos/ascomicetos.component';
 import { BasidiomicetosComponent } from './fungo/basidiomicetos/basidiomicetos.component';
+import { CrisofitasComponent } from './protista/crisofitas/crisofitas.component';
+import { PirrofitasComponent } from './protista/pirrofitas/pirrofitas.component';
+import { EuglenofitasComponent } from './protista/euglenofitas/euglenofitas.component';
+import { ClorofitasComponent } from './protista/clorofitas/clorofitas.component';
+import { RodofitasComponent } from './protista/rodofitas/rodofitas.component';
+import { PhaeophytasComponent } from './protista/phaeophytas/phaeophytas.component';
+import { RizopodesComponent } from './protista/rizopodes/rizopodes.component';
+import { MastigoforosComponent } from './protista/mastigoforos/mastigoforos.component';
+import { CilioforosComponent } from './protista/cilioforos/cilioforos.component';
+import { EsporozoariosComponent } from './protista/esporozoarios/esporozoarios.component';
+import { MixomicetosComponent } from './protista/mixomicetos/mixomicetos.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +71,18 @@ import { BasidiomicetosComponent } from './fungo/basidiomicetos/basidiomicetos.c
     ZigomicetosComponent,
     GlomeromicetosComponent,
     AscomicetosComponent,
-    BasidiomicetosComponent
+    BasidiomicetosComponent,
+    CrisofitasComponent,
+    PirrofitasComponent,
+    EuglenofitasComponent,
+    ClorofitasComponent,
+    RodofitasComponent,
+    PhaeophytasComponent,
+    RizopodesComponent,
+    MastigoforosComponent,
+    CilioforosComponent,
+    EsporozoariosComponent,
+    MixomicetosComponent
   ],
   imports: [
     BrowserModule,

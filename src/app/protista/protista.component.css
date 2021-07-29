@@ -3,14 +3,19 @@ div h2{
     margin: 1% auto;
 }
 div div h3{
-    padding: 5% 0 0 4%;
+    padding: 3% 0 0 4%;
     font-size: 1.3rem;
 }
 
-
-#autotrofos,#heterotrofos{
-    border: 1px solid black;
+hr{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+#autotrofos,#heterotrofos{
+    margin: 1% 0 2% 0;
+}
+
 #autoCima,#autoBaixo{
     display: flex;
     flex-direction: row;
@@ -24,7 +29,7 @@ div div h3{
 #phaeophytas{
     /* border: 1px solid black; */
     width: 25%;
-    height: 300px;
+    height: 230px;
     margin: 1%;
     border-radius: 15px 15px 7px 7px;
     box-shadow: 0 0 1rem black;
@@ -38,7 +43,7 @@ div div h3{
 #rodofitas:hover,
 #phaeophytas:hover{
     width: 30%;
-    height: 330px;
+    height: 260px;
     box-shadow: 0 0 1rem lime;
     cursor: pointer;
 }
@@ -48,6 +53,87 @@ div div h3{
 #tituloClor,
 #tituloRodo,
 #tituloPhae{
+    width: 100%;
+    height: 20%;
+    background-color: #65181B;
+    color: white;
+}
+
+
+/* ///////////////////////////////// */
+#crisofitas img,
+#pirrofitas img,
+#euglenofitas img,
+#clorofitas img,
+#rodofitas img,
+#phaeophytas img,
+#rizopodes img,
+#mastigoforos img,
+#cilioforos img,
+#esporozoarios img,
+#mixomicetos img{
+    width: 100%;
+}
+#rodofitas img,
+#euglenofitas img{
+    width: 125%;
+}
+
+/* Heterótrofos */
+
+#heteroCima,#heteroBaixo{
+    display: flex;
+    flex-direction: row;    
+}
+
+#heteroCima{
+    margin: 0 0 0 16%;
+}
+#heteroBaixo{
+    margin: 0 0 0 26%;
+}
+
+#rizopodes,
+#mastigoforos,
+#cilioforos,
+#esporozoarios,
+#mixomicetos{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 230px;
+    margin:1%;
+    box-shadow: 0 0 1rem black;
+    overflow: hidden;
+    border-radius: 12px 12px 5px 5px;
+    transition: 0.4s;
+}
+
+#esporozoarios,
+#mixomicetos{
+    width:30%
+}
+
+#rizopodes:hover,
+#mastigoforos:hover,
+#cilioforos:hover,
+#esporozoarios:hover,
+#mixomicetos:hover{
+    width: 30%;
+    height: 260px;
+    box-shadow: 0 0 1rem lime;
+    cursor: pointer;
+}
+
+#esporozoarios:hover,
+#mixomicetos:hover{
+    width: 35%;
+}
+
+#tituloRizo,
+#tituloMast,
+#tituloCili,
+#tituloEspo,
+#tituloMixo{
     width: 100%;
     height: 20%;
     background-color: #65181B;
