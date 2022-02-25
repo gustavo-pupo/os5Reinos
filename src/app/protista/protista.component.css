@@ -35,6 +35,7 @@ hr{
     box-shadow: 0 0 1rem black;
     overflow: hidden;
     transition: 0.4s;
+    background-image: url();
 }
 #crisofitas:hover,
 #pirrofitas:hover,
@@ -70,13 +71,27 @@ hr{
 #rizopodes img,
 #mastigoforos img,
 #cilioforos img,
-#esporozoarios img,
+/* #esporozoarios img, */
 #mixomicetos img{
     width: 100%;
 }
 #rodofitas img,
 #euglenofitas img{
-    width: 125%;
+width: 137%;
+offset: 0 0 0 0;
+}
+#esporozoarios img,
+#clorofitas img,
+#phaeophytas img{
+    width: 110%;
+}
+
+/* testes */
+#rizopodes{
+    background-image: url(../../assets/img/protista/risopodes.jpg);
+    background-repeat: no-repeat;
+    background-position:-1vw 3vh;
+    background-size: 110%;
 }
 
 /* Heterótrofos */
